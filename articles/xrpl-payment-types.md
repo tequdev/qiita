@@ -1,7 +1,7 @@
 <!--
 title:   XRP Ledgerの強力なPayment機能
 tags:    Blockchain,XRPLedger,web3,xrp
-id:      a6e7b2ae1813f3be11e7
+id:      79c896f053768842fa3b
 private: false
 -->
 
@@ -107,7 +107,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
 
   AmountにXRPをdropの単位(1XRP=1000000drops)で指定します。
 
-  ```json
+```json
   {
     "TransactionType" : "Payment",
     "Account" : "rs7FV1WHDutSL8o6iNy1e1quf7Daf8CNrk",
@@ -117,7 +117,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
     "Flags": 2147483648,
     "Sequence": 2,
   }
-  ```
+```
 
 ### クロスカレンシー決済
 
@@ -128,7 +128,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
 
   1USDを送信するために2XRPしか使用しなかった場合、残りの8XRPは送信元アカウントに返されます。
 
-  ```json
+```json
     {
       "TransactionType" : "Payment",
       "Account" : "rs7FV1WHDutSL8o6iNy1e1quf7Daf8CNrk",
@@ -143,7 +143,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
       "Flags": 2147483648,
       "Sequence": 2,
     }
-  ```
+```
 
 - **IOU（発行トークン）-IOU（発行トークン）**
 
@@ -151,7 +151,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
   送金の過程でDEXを利用し、USDをEURに変換します。
   USD/EURの流動性が小さい場合、USD/XRPやEUR/XRPの流動性も使用します。
 
-  ```json
+```json
     {
       "TransactionType" : "Payment",
       "Account" : "rs7FV1WHDutSL8o6iNy1e1quf7Daf8CNrk",
@@ -170,7 +170,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
       "Flags": 2147483648,
       "Sequence": 2,
     }
-    ```
+```
 
 ### 通貨変換
 
@@ -222,7 +222,7 @@ FlagsにtfPartialPaymentを設定することでPartialPaymentが有効化され
     "Flags": 2147614720, // tfFullyCanonicalSig(2147483648) + tfPartialPayment(131072)
     "Sequence": 2,
   }
-  ```
+```
 
 ## パス
 
