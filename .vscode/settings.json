@@ -9,7 +9,7 @@
     },
     "editor.snippetSuggestions": "top"
   },
-
+  "markdown.preview.breaks": true,
   // Qiita theme
   "workbench.colorCustomizations": {
     "editor.background": "#fff",
