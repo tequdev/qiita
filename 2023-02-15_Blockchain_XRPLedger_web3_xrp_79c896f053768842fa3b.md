@@ -126,7 +126,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
 
   1USDを送信するために2XRPしか使用しなかった場合、残りの8XRPは送信元アカウントに返されます。
 
-  `json
+```json
     {
       "TransactionType" : "Payment",
       "Account" : "rs7FV1WHDutSL8o6iNy1e1quf7Daf8CNrk",
@@ -141,7 +141,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
       "Flags": 2147483648,
       "Sequence": 2,
     }
-  `
+```
 
 - **IOU（発行トークン）-IOU（発行トークン）**
 
@@ -168,7 +168,7 @@ PaymentトランザクションではXRP Ledgerのネイティブトークンで
       "Flags": 2147483648,
       "Sequence": 2,
     }
-```    ````
+```
 
 ### 通貨変換
 
