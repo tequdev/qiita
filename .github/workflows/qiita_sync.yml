@@ -4,10 +4,12 @@ on:
   # push:
   #   branches:
   #     - main
+  schedule:
+    - cron: "30 22 * * 5" # JST 7:30 Wed
   workflow_dispatch:
 
 jobs:
-  qiita_sync_check:
+  qiita_sync:
     name: Run qiita-sync sync
     runs-on: ubuntu-latest
     steps:
