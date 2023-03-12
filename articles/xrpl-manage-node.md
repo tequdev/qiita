@@ -1,8 +1,10 @@
 <!--
 title:   【2023年版】XRP Ledgerのノードを構築してみる
 tags:    Blockchain,XRPLedger,web3,xrp
+id:      2cde7d347e96280d49ae
 private: false
 -->
+
 
 ## はじめに
 
