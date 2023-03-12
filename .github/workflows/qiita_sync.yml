@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: "30 22 * * 3" # JST 7:30 Wed
+    - cron: "30 22 * * 0,3" # JST 7:30 Mon,Wed
   workflow_dispatch:
 
 jobs:
