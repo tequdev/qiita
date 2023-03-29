@@ -1,8 +1,10 @@
 <!--
 title:   【2023年版】XRP Ledgerのノードの更新
 tags:    Blockchain,XRPLedger,web3,xrp
+id:      f990f064eeef43998e05
 private: false
 -->
+
 
 
 ## はじめに
@@ -80,7 +82,7 @@ Need to get 20.1 MB of archives.
 After this operation, 10.3 MB of additional disk space will be used.
 ...
 Get:23 https://repos.ripple.com/repos/rippled-deb jammy/stable amd64 rippled amd64 1.10.0-1 [17.3 MB]
-Fetched 20.1 MB in 4s (5,707 kB/s)                
+Fetched 20.1 MB in 4s (5,707 kB/s)
 Preconfiguring packages ...
 ...
 Preparing to unpack .../20-rippled_1.10.0-1_amd64.deb ...
