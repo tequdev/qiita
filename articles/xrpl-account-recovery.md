@@ -4,9 +4,6 @@ tags:    Blockchain,XRPLedger,web3,xrp
 id:      ca45999dec66e242a8a2
 private: false
 -->
-
-
-
 ## はじめに
 
 XRP Ledgerは、分散型台帳技術を採用したブロックチェーンの1つです。2012年にXRP Ledgerは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。
@@ -334,7 +331,7 @@ https://test.bithomp.com/explorer/53E175D117192FF40B134C3E1282FF8FDE3B2DC0080823
 
 ## まとめ
 
-レギュラーキーやマルチシグの仕組みははEthereumのAccount Abstractionで実現可能と言われていますが、XRP Ledgerではすでにネイティブに実装されています。
+レギュラーキーやマルチシグの仕組みはEthereumのAccount Abstractionで実現可能と言われていますが、XRP Ledgerではすでにネイティブに実装されています。
 資産を安全に管理するための機能がスマートコントラクトなしに利用できることはXRP Ledgerの強みの一つと言えるでしょう。
 
 
