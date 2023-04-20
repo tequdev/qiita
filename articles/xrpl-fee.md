@@ -1,8 +1,10 @@
 <!--
 title:   XRPLの手数料投票
 tags:    Blockchain,XRPLedger,web3,xrp,xrpl
+id:      9d2e7d1f521f69a1ddae
 private: false
 -->
+
 
 # はじめに
 
