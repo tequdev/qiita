@@ -5,8 +5,6 @@ id:      f990f064eeef43998e05
 private: false
 -->
 
-
-
 ## はじめに
 
 XRP Ledgerは、分散型台帳技術を採用したブロックチェーンの1つです。XRP Ledgerは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。本記事ではノード(rippledサーバ)の更新方法について解説します。
@@ -17,11 +15,11 @@ https://xrpl.org/ja/update-rippled-manually-on-ubuntu.html
 
 https://qiita.com/tequ/items/2cde7d347e96280d49ae
 
-
 今回はUbuntu 22.04の環境にインストールしたrippledをアップデートします。
 
 ## 直近のアップデート
-#### 1.10.0(2023-03-14)
+
+### 1.10.0(2023-03-14)
 
 NFTを初めとしたいくつかの機能の修正、およびいくつかのトランザクションの着信を無効化するための機能の追加を含んでいます。
 
@@ -29,7 +27,7 @@ https://github.com/XRPLF/rippled/releases/tag/1.10.0
 
 https://zenn.dev/tequ/articles/rippled-1-10-0
 
-#### 1.10.1(2023-03-23)
+### 1.10.1(2023-03-23)
 
 非常に軽微な修正のみです。
 
@@ -37,9 +35,7 @@ https://twitter.com/alloynetworks/status/1638608818308546560
 
 https://github.com/XRPLF/rippled/releases/tag/1.10.1
 
-
 ## 手動での更新
-
 
 - リポジトリを更新
 `sudo apt -y update`

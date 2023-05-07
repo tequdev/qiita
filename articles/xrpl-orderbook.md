@@ -5,7 +5,6 @@ id:      bc33b2c370d861969ed3
 private: false
 -->
 
-
 XRP LedgerのDEX（分散型取引所）では、ユーザーが自分のデジタル資産をオファーとして提供することができます。オファーは、他のユーザがその資産を購入するために使用できます。
 
 オファーには、取引金額、支払い通貨、受け取り通貨などの情報が含まれます。オファーは自由に設定でき、ユーザーは自分が望む価格でアセットを販売することができます。
@@ -23,7 +22,6 @@ https://xrpl.org/decentralized-exchange.html
 
 ![image](https://user-images.githubusercontent.com/69445828/221449804-a8bc68c7-95ec-419a-915c-8abe9310efe0.png)
 
-
 ## 準備
 
 今回はSavaScriptのクライアントライブラリであるxrpl.jsを利用します。
@@ -33,7 +31,6 @@ https://github.com/XRPLF/xrpl.js
 https://www.npmjs.com/package/xrpl
 
 https://js.xrpl.org/
-
 
 JavaScript以外にもPythonなどの他の言語のライブラリも存在します。
 チェックしてみてください。

@@ -5,7 +5,6 @@ id:      9d2e7d1f521f69a1ddae
 private: false
 -->
 
-
 # はじめに
 
 XRPレジャーは、分散型台帳技術を採用したブロックチェーンの1つです。XRPレジャーは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。
@@ -36,17 +35,17 @@ https://github.com/XRPLF/rippled/blob/release/src/ripple/app/misc/FeeEscalation.
 
 ```jsx :トランザクションの例
 {
-	"TransactionType" : "Payment",
-	"Account" : "rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn",
-	"Destination" : "ra5nK24KXen9AHvsdFTKHSANinZseWnPcX",
-	"Amount" : {
-	"currency" : "USD",
-	"value" : "1",
-		"issuer" : "rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn"
-	},
-	"Fee": "12",
-	"Flags": 2147483648,
-	"Sequence": 2,
+  "TransactionType" : "Payment",
+  "Account" : "rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn",
+  "Destination" : "ra5nK24KXen9AHvsdFTKHSANinZseWnPcX",
+  "Amount" : {
+  "currency" : "USD",
+  "value" : "1",
+    "issuer" : "rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn"
+  },
+  "Fee": "12",
+  "Flags": 2147483648,
+  "Sequence": 2,
 }
 ```
 
@@ -161,6 +160,7 @@ client.connect().then(() => {
 `drops`フィールドを確認することで現在の手数料を確認することができます。
 
 最小限の負担でトランザクションを送信したい場合は`base_fee`、少なくともトランザクションキューに入るようにトランザクションを送信したい場合は`minimum_fee`、トランザクションキューに入らずに直接トランザクションを送信したい場合は`open_ledger_fee`を使用すると良いでしょう(それぞれを保証する値ではありません)。
+
 ## まとめ
 
 本記事では、XRPレジャーの手数料の仕組みについて解説しました。トランザクション手数料や準備金はネットワークを健全に保つために必要な仕組みであり、これによりユーザが大きな負担なくXRPレジャーを利用することができるのです。

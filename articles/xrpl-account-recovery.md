@@ -42,6 +42,7 @@ const wallet = Wallet.generate();
 
 console.log(wallet);
 ```
+
 https://stackblitz.com/edit/xrpl-regularkey?file=generate-address.js
 
 実行すると以下のような結果が得られます。
@@ -83,6 +84,7 @@ const main = async () => {
 
 main();
 ```
+
 https://stackblitz.com/edit/xrpl-regularkey?file=setRegularKey.js
 
 これでレギュラーキーの設定が完了しました。以下がトランザクションの実行結果です。
@@ -90,6 +92,7 @@ https://stackblitz.com/edit/xrpl-regularkey?file=setRegularKey.js
 https://test.bithomp.com/explorer/D740755808517728EEB944F60534E43FA3F5A1D27005BB8785E38E2010FB7A3E
 
 ページ内のRaw TX dataを見るとレギュラーキーが設定されていることが確認できます。
+
 ```json
 "FinalFields": {
   "Account": "rakMd7KDSpnVjgbtfTsCtTu4h7gqJ42DZL",
@@ -132,6 +135,7 @@ const main = async () => {
 
 main();
 ```
+
 https://stackblitz.com/edit/xrpl-regularkey?file=signTransaction.js
 
 以下がトランザクションの実行結果です。
@@ -189,6 +193,7 @@ Wallet {
   seed: 'sEd7KbkRFTuNj2DYao5Wx8LnhVdEawn'
 }
 ```
+
 https://stackblitz.com/edit/node-lsniff?file=generate-wallet.js
 
 その後自身のアカウントにマルチシグを設定します。
@@ -240,7 +245,6 @@ main();
 
 以下がトランザクションの実行結果です。
 https://test.bithomp.com/explorer/1A0A86F78A1FBA91624714CB65BF99954D39E3EDEC38CCED6D088DD77F32D0F9
-
 
 https://xrpl.org/ja/signerlistset.html#signerlistset
 
@@ -325,6 +329,7 @@ main();
 ```
 
 以下がトランザクションの実行結果です
+
 https://test.bithomp.com/explorer/53E175D117192FF40B134C3E1282FF8FDE3B2DC008082395D0D0B887DC4F4929
 
 `rnf4XWcJdALZVg3bUyHGikzfYXfUvUg5vH`のマスターキーがなくとも、`rBg6tv4fRd8mKKvXQoMg4RpDN8JEQU2GL1`と`rBUjxjCmCwKKyP2gJivhgoBtLksRZ4xGQm`の２つの署名者によってでトランザクションを実行することができました。
@@ -333,7 +338,6 @@ https://test.bithomp.com/explorer/53E175D117192FF40B134C3E1282FF8FDE3B2DC0080823
 
 レギュラーキーやマルチシグの仕組みはEthereumのAccount Abstractionで実現可能と言われていますが、XRP Ledgerではすでにネイティブに実装されています。
 資産を安全に管理するための機能がスマートコントラクトなしに利用できることはXRP Ledgerの強みの一つと言えるでしょう。
-
 
 XRP Ledgerに興味がある方は開発者Discordチャンネルへ是非お越しください！
 日本語チャンネルもありますので、英語が出来なくても大丈夫です！
