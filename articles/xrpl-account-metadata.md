@@ -1,8 +1,10 @@
 <!--
 title:   XRPLアカウントのメタデータ
 tags:    Blockchain,XRPLedger,web3,xrp
+id:      bbbece734508e8282372
 private: false
 -->
+
 
 ## はじめに
 
