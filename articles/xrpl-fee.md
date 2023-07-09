@@ -1,10 +1,9 @@
 <!--
 title:   XRPLの手数料投票
-tags:    Blockchain,XRPLedger,web3,xrp,xrpl
+tags:    Blockchain,Web3,XRPLedger,xrp,xrpl
 id:      9d2e7d1f521f69a1ddae
 private: false
 -->
-
 # はじめに
 
 XRPレジャーは、分散型台帳技術を採用したブロックチェーンの1つです。XRPレジャーは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。

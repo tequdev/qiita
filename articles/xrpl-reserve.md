@@ -1,10 +1,9 @@
 <!--
 title:   XRP Ledgerの準備金
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      db3d43baaad8ad3841c8
 private: false
 -->
-
 XRP Ledgerには **スパムなどの悪意ある行為から守り、低い手数料で利用するための仕組み** として準備金が存在します。
 例えば誰も保有を望まない何万ものNFTが台帳へ存在することはノードへ不要な負担を強いることになりますが、NFTの保有に対して準備金を設定することで、所有者に対してNFTを **台帳から削除させるインセンティブ** を発生させます。
 

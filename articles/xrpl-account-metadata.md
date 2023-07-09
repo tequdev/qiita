@@ -1,11 +1,9 @@
 <!--
 title:   XRPLアカウントのメタデータ
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      bbbece734508e8282372
 private: false
 -->
-
-
 ## はじめに
 
 XRPレジャーは、分散型台帳技術を採用したブロックチェーンの1つです。2012年にXRP Ledgerは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。

@@ -1,6 +1,6 @@
 <!--
 title:   秘密鍵紛失時のアカウントリカバリー【XRP Ledger】
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      ca45999dec66e242a8a2
 private: false
 -->

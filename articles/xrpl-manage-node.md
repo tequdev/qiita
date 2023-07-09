@@ -1,10 +1,9 @@
 <!--
 title:   【2023年版】XRP Ledgerのノードを構築してみる
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      2cde7d347e96280d49ae
 private: false
 -->
-
 ## はじめに
 
 XRP Ledgerは、分散型台帳技術を採用したブロックチェーンの1つです。XRP Ledgerは3人の開発者によって開発され、現在もXRPL財団やRipple社、XRPL Labsなどを始めとしたXRPLコミュニティによって開発が続けられています。この記事では、XRP Ledgerのrippledサーバーを構築する方法について解説します。rippledサーバーを構築することで、トランザクションを自身の管理するサーバからネットワークへ提出することができます。

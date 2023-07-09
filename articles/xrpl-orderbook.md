@@ -1,10 +1,9 @@
 <!--
 title:   XRPLのオーダーブックを使ってみよう
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      bc33b2c370d861969ed3
 private: false
 -->
-
 XRP LedgerのDEX（分散型取引所）では、ユーザーが自分のデジタル資産をオファーとして提供することができます。オファーは、他のユーザがその資産を購入するために使用できます。
 
 オファーには、取引金額、支払い通貨、受け取り通貨などの情報が含まれます。オファーは自由に設定でき、ユーザーは自分が望む価格でアセットを販売することができます。

@@ -1,10 +1,9 @@
 <!--
 title:   XRP Ledgerの強力なPayment機能
-tags:    Blockchain,XRPLedger,web3,xrp
+tags:    Blockchain,Web3,XRPLedger,xrp
 id:      79c896f053768842fa3b
 private: false
 -->
-
 XRP Ledgerは強力な支払い機能を持つパブリックなブロックチェーンです。
 
 支払い機能には次の種類のトランザクションが存在します。
